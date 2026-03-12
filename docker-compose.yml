@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    container_name: docker_project_web
+    ports:
+      - "8080:80"
